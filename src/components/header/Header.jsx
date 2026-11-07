@@ -15,7 +15,7 @@ const Header = () => {
                     <p>"Explore experienced mentors, discover the right guidance for your goals, <br/>
                         and book your mentorship sessions effortlessly."</p>
                 </div>
-                <a href="" className='flex items-center gap-2 bg-white px-3 rounded-full text-gray-600 text-sm m-auto md:m-2 hover:scale-105 transition-all duration-300'>
+                <a href="#speciality" className='flex items-center gap-2 bg-white px-3 rounded-full text-gray-600 text-sm m-auto md:m-2 hover:scale-105 transition-all duration-300'>
                     Book App <img className='w-3' src={assets.arrow_icon} alt=""/>
                 </a>
             </div>

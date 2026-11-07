@@ -10,6 +10,7 @@ import MyProfile from "./pages/MyProfile.jsx";
 import MyApp from "./pages/MyApp.jsx";
 import Appointment from "./pages/Appointment.jsx";
 import Nav from "./components/nav/Nav.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 function App() {
 
@@ -21,8 +22,8 @@ function App() {
 
           <Routes>
               <Route path='/' element={<Home/>}/>
-              <Route path='/mentor' element={<Mentor/>}/>
-              <Route path='/mentor/:speciliality' element={<Mentor/>}/>
+              <Route path='/mentors' element={<Mentor/>}/>
+              <Route path='/mentors/:speciality' element={<Mentor/>}/>
               <Route path='/login' element={<Login/>}/>
               <Route path='/about' element={<About/>}/>
               <Route path='/contact' element={<Contact/>}/>
@@ -30,6 +31,7 @@ function App() {
               <Route path='/my-app' element={<MyApp/>}/>
               <Route path='/app/:docId' element={<Appointment/>}/>
           </Routes>
+          <Footer/>
       </div>
 
   )
